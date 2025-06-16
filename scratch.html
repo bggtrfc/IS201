@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/myStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header com">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    
+    <!-- Collection of all requested embeded links -->
+    <div class="right com">
+        <h4>My Links</h4>
+        <a href="index.html">My Resume Page</a> <br>
+        <a href="webapp.html">Rock Paper Scissors</a> <br>
+        <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Source Article</a>
+    </div>
+
+    <!-- On-page Anchors -->
+    <div class="left com">
+        <h4>Directory</h4>
+        <a href="#his">History</a> <br>
+        <a href="#vid">Video</a> <br>
+        <a href="#tab">Tableau</a>
+    </div>
+
+    <!-- Main Body, includes some information, Video, and Tableau -->
+    <div class="com main" id="his">
+        <h4>The History of Rock Paper Scissors (as told by Chat GPT)</h4>
+        <p>The earliest known mention of the game appears in the book Wuzazu by the Ming-dynasty writer Xie Zhaozhe (c. 1600), who claimed the game dated back to the Han dynasty (206 BCE – 220 CE). In his account, the game was called shoushiling. Li Rihua's Note of Liuyanzhai also references the game, referring to it as shoushiling (手勢令 / 手势令), huozhitou (豁指頭 / 豁指头), or huaquan (划拳).</p>
+        <p>From China, the game was brought to Japan, where it evolved into various forms known collectively as sansukumi-ken, meaning "three-way deadlock fist games"—where A defeats B, B defeats C, and C defeats A.</p>
+        <p>The earliest Japanese version was mushi-ken (虫拳), first recorded in 1809. In this game, the frog (kawazu, represented by the thumb) defeats the slug (namekuji, little finger), the slug defeats the snake (hebi, index finger), and the snake defeats the frog. The Japanese version differs from the Chinese original due to a character mix-up: the Chinese characters for the venomous centipede (蜈蚣) were mistakenly replaced with the characters for slug (蛞蝓).</p>
+        <p>Another popular Japanese variant was kitsune-ken (狐拳), in which a fox defeats the village head, the village head defeats the hunter, and the hunter defeats the fox. Unlike mushi-ken or modern rock-paper-scissors, kitsune-ken required gestures with both hands.</p>        
+        <p>Eventually, the most widely recognized form of the game in Japan became jan-ken (じゃんけん), a version that uses the now-familiar rock, paper, and scissors signs. It originated from earlier Chinese games introduced in the 17th century and is the direct predecessor of the modern game of rock-paper-scissors. The modern version, featuring standardized hand gestures, became widespread during the late 19th century, between the Edo and Meiji periods.</p>
+        
+        <!-- This is the Video -->
+        <div style="text-align: center;"><iframe  id="vid" width="560" height="315" src="https://www.youtube.com/embed/ND4fd6yScBM?si=4bWGvzIUh62j6pXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        
+        <!-- This is the Tableau Dashboard -->
+        <div class='tableauPlaceholder' id='viz1749934571852' style='position: relative'>
+            <span id="tab"></span>
+            <noscript>
+                <a href='#'>
+                    <img alt='DASHBOARD ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataforaCause-GlobalPeaceScores&#47;DASHBOARD&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='DataforaCause-GlobalPeaceScores&#47;DASHBOARD' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataforaCause-GlobalPeaceScores&#47;DASHBOARD&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1749934571852');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='1150px';vizElement.style.height='2027px';                    
+            var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </div>
+</body>
+</html>
